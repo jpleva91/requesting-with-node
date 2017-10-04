@@ -25,7 +25,9 @@ rl.question('What is your favorite movie?  Type Here: ', (answer1) => {
 			threeFavoriteMovies.forEach(function(film){
 				movie.get(film);
 			});
-		})
-	})
-})
+
+			rl.close();
+		});
+	});
+});
 
